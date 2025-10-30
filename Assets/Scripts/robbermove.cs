@@ -9,7 +9,6 @@ public class robbermove : MonoBehaviour
     private bool isGrounded;
     private bool isJumping;
     private bool hasDoubleJumped;
-    private bool hasDashed;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] float speed = 7f;
