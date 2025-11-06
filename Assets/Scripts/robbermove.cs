@@ -9,6 +9,7 @@ public class robbermove : MonoBehaviour
     private bool isGrounded;
     private bool isJumping;
     private bool hasDoubleJumped;
+    private bool isCrouching;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] float speed = 7f;
@@ -16,6 +17,7 @@ public class robbermove : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        isCrouching = false;
     }
     private void FixedUpdate()
     {
@@ -49,6 +51,20 @@ public class robbermove : MonoBehaviour
             {
                 hasDoubleJumped = true;
             }
+        }
+    }
+
+    void OnCrouch(InputValue value)
+    {
+        if(!isCrouching)
+        {
+            transform.localScale = new Vector3(1f, 0.5f, 1f);
+            isCrouching = true;
+        }
+        else
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+            isCrouching = false;
         }
     }
 
