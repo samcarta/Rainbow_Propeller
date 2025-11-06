@@ -18,6 +18,8 @@ public class robbermove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         isCrouching = false;
+        isJumping = false;
+        hasDoubleJumped = false;
     }
     private void FixedUpdate()
     {
@@ -59,11 +61,17 @@ public class robbermove : MonoBehaviour
         if(!isCrouching)
         {
             transform.localScale = new Vector3(1f, 0.5f, 1f);
+            speed = speed / 2;
+            isJumping = true;
+            hasDoubleJumped = true;
             isCrouching = true;
         }
         else
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
+            speed = speed * 2;
+            isJumping = false;
+            hasDoubleJumped = false;
             isCrouching = false;
         }
     }
@@ -71,7 +79,7 @@ public class robbermove : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject other = collision.gameObject;
-        if(other.CompareTag("Ground"))
+        if(other.CompareTag("Ground") && !isCrouching)
         {
             isGrounded = true;
             isJumping = false;
