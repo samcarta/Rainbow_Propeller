@@ -343,7 +343,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 138151896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2b486abd5a96d4397eb8a0de3b4462, type: 3}
+  m_Script: {fileID: 11500000, guid: ad642ef25b392e94f8480e63f4102ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1645518967}
@@ -1525,7 +1525,8 @@ PrefabInstance:
       value: Pause.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7714328573724847701, guid: 53a60744ee5fc1b46b87be53d2ed51ff, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53a60744ee5fc1b46b87be53d2ed51ff, type: 3}

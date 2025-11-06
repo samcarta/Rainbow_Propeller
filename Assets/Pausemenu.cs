@@ -4,27 +4,53 @@ using UnityEngine.SceneManagement;
 public class Pausemenu : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
+    private bool isPaused = false;
     public void Pause()
     {
-        pauseMenu.SetActive(true);
-        Time.timeScale = 0;
+        if (isPaused)
+        {
+            Time.timeScale = 1f;
+            isPaused = false;
+            pauseMenu.SetActive(false);
+        }
+        else
+        {
+            Time.timeScale = 0f;
+            isPaused = true;
+            pauseMenu.SetActive(true);
+        }
     }
 
     public void Home()
     {
-        SceneManager.LoadScene("Title screen 1");
-        Time.timeScale = 1;
+        SceneManager.LoadScene("Title screen");
     }
     public void Resume()
     {
-        pauseMenu.SetActive(false);
         Time.timeScale = 1;
-
+        isPaused = false;
+        pauseMenu.SetActive(false);
     }
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
 
+    }
+
+    void OnPause()
+    {
+        if (isPaused)
+        {
+            Time.timeScale = 1f;
+            isPaused = false;
+            pauseMenu.SetActive(false);
+        }
+        else
+        {
+            Time.timeScale = 0f;
+            isPaused = true;
+            pauseMenu.SetActive(true);
+        }
     }
 }
