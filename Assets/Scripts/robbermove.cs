@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class robbermove : MonoBehaviour
 {
    
-    [SerializeField] float jumpPower = 5f;
+    [SerializeField] float jumpPower = 10f;
     private float movementX;
     private bool isGrounded;
     private bool isJumping;
