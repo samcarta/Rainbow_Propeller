@@ -20,9 +20,9 @@ public class maintitlemanager : MonoBehaviour
     {
         
     }
-    public void LoadNextScene()
+    public void LoadScene()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        
+        SceneManager.LoadScene("Character and Enemy Test");
     }
 }
