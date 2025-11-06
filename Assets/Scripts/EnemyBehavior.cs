@@ -10,15 +10,15 @@ public class EnemyBehavior : MonoBehaviour
     [SerializeField] float secondPauseTime = 1.5f;
     [SerializeField] float moveTime = 2f;
     private float timer;
-    Rigidbody2D enemyrb;
+    [SerializeField] Rigidbody2D enemyRB;
     private bool facingLeft;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         timer = Time.time;
-        enemyrb = enemy.GetComponent<Rigidbody2D>();
         facingLeft = true;
+        enemyRB = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -51,14 +51,14 @@ public class EnemyBehavior : MonoBehaviour
         yield return new WaitForSeconds(firstPauseTime);
         if (facingLeft)
         {
-            enemyrb.linearVelocity = new Vector2(2f, enemyrb.linearVelocity.y);
+            enemyRB.linearVelocityX = 10f;
         }
         else
         {
-            enemyrb.linearVelocity = new Vector2(-2f, enemyrb.linearVelocity.y);
+            enemyRB.linearVelocityX = -10f;
         }
         yield return new WaitForSeconds(moveTime);
-        enemyrb.linearVelocity = new Vector2(0f, 0f);
+        enemyRB.linearVelocityX = 0f;
         yield return new WaitForSeconds(secondPauseTime);
     }
 }
