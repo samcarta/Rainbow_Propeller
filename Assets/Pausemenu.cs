@@ -37,20 +37,4 @@ public class Pausemenu : MonoBehaviour
         Time.timeScale = 1;
 
     }
-
-    void OnPause()
-    {
-        if (isPaused)
-        {
-            Time.timeScale = 1f;
-            isPaused = false;
-            pauseMenu.SetActive(false);
-        }
-        else
-        {
-            Time.timeScale = 0f;
-            isPaused = true;
-            pauseMenu.SetActive(true);
-        }
-    }
 }
