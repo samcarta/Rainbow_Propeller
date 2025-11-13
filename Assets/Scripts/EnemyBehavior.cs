@@ -42,7 +42,7 @@ public class EnemyBehavior : MonoBehaviour
             {
                 facingLeft = true;
             }
-            EnemyMove();
+            StartCoroutine(EnemyMove());
         }
     }
 
@@ -51,11 +51,11 @@ public class EnemyBehavior : MonoBehaviour
         yield return new WaitForSeconds(firstPauseTime);
         if (facingLeft)
         {
-            enemyRB.linearVelocityX = 10f;
+            enemyRB.linearVelocityX = -5f;
         }
         else
         {
-            enemyRB.linearVelocityX = -10f;
+            enemyRB.linearVelocityX = 5f;
         }
         yield return new WaitForSeconds(moveTime);
         enemyRB.linearVelocityX = 0f;
