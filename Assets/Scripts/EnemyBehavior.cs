@@ -51,11 +51,11 @@ public class EnemyBehavior : MonoBehaviour
         yield return new WaitForSeconds(firstPauseTime);
         if (facingLeft)
         {
-            enemyRB.linearVelocityX = 10f;
+            enemyRB.AddForce(new Vector2(1000000f, 0f), ForceMode2D.Impulse);
         }
         else
         {
-            enemyRB.linearVelocityX = -10f;
+            enemyRB.AddForce(new Vector2(-1000000f, 0f), ForceMode2D.Impulse);
         }
         yield return new WaitForSeconds(moveTime);
         enemyRB.linearVelocityX = 0f;
