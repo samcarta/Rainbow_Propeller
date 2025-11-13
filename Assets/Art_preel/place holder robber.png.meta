@@ -1,0 +1,961 @@
+fileFormatVersion: 2
+guid: 0b438f8ed96c8cd40a5a240d4135361e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 273733333715250904
+    second: place holder robber_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: place holder robber_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dee747440f7cc300800000000000000
+      internalID: 273733333715250904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c79d98bd7c8a04b881a49f032b6f1a
+      internalID: -527435122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb153fe97f26ced4cbb4fb530c458e39
+      internalID: -232994044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfedfdc254ba174ca442fa981b27de2
+      internalID: 640120600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64855fa9d47a3ae41a9cdd964955e687
+      internalID: -106296678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef46fb3014616f04f8dc0448954db64c
+      internalID: -1107063875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfea670498f60d64b8ab0daa864a48fe
+      internalID: -708113814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_7
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568fcabbdcb8b6c42a59ef8c7dab5e42
+      internalID: -1418305135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eec55d4ef5e7c49a2ea916434365b6
+      internalID: -257163265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a922662a434e2d45af6d4850f3dece2
+      internalID: -487661560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f76ad78a9cda643b1d60a663a6ba0f
+      internalID: -710040184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96c47c1245a5f049be45eb243ba150b
+      internalID: -1392076192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f302f79eefcc1264aae324cca4e6dd2c
+      internalID: -52454867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8464ad6859084f049a8a8eb332319e09
+      internalID: 2128334419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0135e649fb73de04fae080a1eea6644e
+      internalID: 702411250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_15
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02832f86bbd10094cb9e3823c3ac191d
+      internalID: -1390262341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_16
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8102dc3ab400545a7ea0d976f4e400
+      internalID: -970164919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_17
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19d0901518911145a36d18c513b70c5
+      internalID: -2074459120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53c4663b390d6e4f8b88e1af791fa4e
+      internalID: -2007593429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e82431aedef8d4a812563ac51ce5e1
+      internalID: 331372373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06dba4f62ee71f439efbff4ffeafc19
+      internalID: 1353776484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5dcbf6e80a7f640a91b343f3ca4d9a
+      internalID: -691898937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e3ecb919976ff4fbb2019f58aa8991
+      internalID: -1843542986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e310c9fcc9b47674685ddecb232f9df9
+      internalID: -1942328490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_24
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a79af4a9ac25d2449671f808f828b73
+      internalID: -1751181096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_25
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40ce57ac898e9744b14f5d22eb1afe8
+      internalID: -1329097428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_26
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 144
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e12328988a756a46b5feb79925c2cb5
+      internalID: 1013510735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456032ceadd7f3545ba025bf0994aa7c
+      internalID: 954331143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8f50c32a6ad04498ebe6166d461b66
+      internalID: 1493155722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_29
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065af7e20c2d5b409b6f4fd6a336b56
+      internalID: 817108526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_30
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95be45fdc252454eba81c6e0f24a4e1
+      internalID: 551361844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aee086db451d843a9e1805d18f411a
+      internalID: 445832805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_32
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027c5c37c6721584f9648c378541b20d
+      internalID: 1880007487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_33
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73187b6361e7e45448a9f86ad019e3ad
+      internalID: -206519788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_34
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12786ccf63eb93948a409acbd1f86e36
+      internalID: 1735900822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_35
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 8
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ff1dfa7fd79d14bb1f287eda52c2ab
+      internalID: 2141212308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5f3f69b08ef47741b4b4f6f1404b561
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      place holder robber_0: 273733333715250904
+      place holder robber_1: -527435122
+      place holder robber_10: -710040184
+      place holder robber_11: -1392076192
+      place holder robber_12: -52454867
+      place holder robber_13: 2128334419
+      place holder robber_14: 702411250
+      place holder robber_15: -1390262341
+      place holder robber_16: -970164919
+      place holder robber_17: -2074459120
+      place holder robber_18: -2007593429
+      place holder robber_19: 331372373
+      place holder robber_2: -232994044
+      place holder robber_20: 1353776484
+      place holder robber_21: -691898937
+      place holder robber_22: -1843542986
+      place holder robber_23: -1942328490
+      place holder robber_24: -1751181096
+      place holder robber_25: -1329097428
+      place holder robber_26: 1013510735
+      place holder robber_27: 954331143
+      place holder robber_28: 1493155722
+      place holder robber_29: 817108526
+      place holder robber_3: 640120600
+      place holder robber_30: 551361844
+      place holder robber_31: 445832805
+      place holder robber_32: 1880007487
+      place holder robber_33: -206519788
+      place holder robber_34: 1735900822
+      place holder robber_35: 2141212308
+      place holder robber_4: -106296678
+      place holder robber_5: -1107063875
+      place holder robber_6: -708113814
+      place holder robber_7: -1418305135
+      place holder robber_8: -257163265
+      place holder robber_9: -487661560
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

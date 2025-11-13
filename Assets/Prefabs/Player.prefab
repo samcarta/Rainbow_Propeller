@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 4671762928447356826}
   - component: {fileID: 2115023509354424570}
   - component: {fileID: 7883665399316662385}
-  - component: {fileID: 814154755755208836}
   - component: {fileID: 9116009527349592252}
-  - component: {fileID: 2787784283790547083}
+  - component: {fileID: 7095320312302501702}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -81,12 +80,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2037940481, guid: 0a74361cbeee664498f95cdc84f4991c, type: 3}
+  m_Sprite: {fileID: -52454867, guid: 0b438f8ed96c8cd40a5a240d4135361e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 1.36}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -149,7 +148,22 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!60 &814154755755208836
+--- !u!114 &9116009527349592252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7097690640781616237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0db967886ad094392537388a8bcaea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpPower: 6
+  rb: {fileID: 2115023509354424570}
+  speed: 10
+--- !u!60 &7095320312302501702
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,44 +201,16 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.09, y: 1.56}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 1.36}
+    newSize: {x: 0.96, y: 1.36}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.545, y: 0.78}
-      - {x: -0.545, y: -0.78}
-      - {x: 0.545, y: -0.78}
-      - {x: 0.545, y: 0.78}
+    - - {x: -0.48, y: 0.68}
+      - {x: -0.48, y: -0.68}
+      - {x: 0.48, y: -0.68}
+      - {x: 0.48, y: 0.68}
   m_UseDelaunayMesh: 0
---- !u!114 &9116009527349592252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7097690640781616237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf0db967886ad094392537388a8bcaea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpPower: 6
-  rb: {fileID: 2115023509354424570}
-  speed: 10
---- !u!114 &2787784283790547083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7097690640781616237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2b486abd5a96d4397eb8a0de3b4462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 0}
