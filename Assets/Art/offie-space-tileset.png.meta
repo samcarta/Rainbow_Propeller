@@ -117,6 +117,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -125,9 +138,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 143
-        width: 24
-        height: 49
+        y: 144
+        width: 23
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +163,10 @@ TextureImporter:
       name: offie-space-tileset_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 143
-        width: 440
-        height: 49
+        x: 144
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +189,10 @@ TextureImporter:
       name: offie-space-tileset_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 16
-        height: 28
+        x: 1
+        y: 97
+        width: 14
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +215,10 @@ TextureImporter:
       name: offie-space-tileset_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 97
+        x: 18
+        y: 97
+        width: 44
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +242,10 @@ TextureImporter:
       name: offie-space-tileset_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 96
-        width: 46
-        height: 20
+        x: 65
+        y: 97
+        width: 14
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +269,10 @@ TextureImporter:
       name: offie-space-tileset_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 36
+        x: 81
+        y: 97
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +295,10 @@ TextureImporter:
       name: offie-space-tileset_6
       rect:
         serializedVersion: 2
-        x: 80
-        y: 96
-        width: 16
-        height: 14
+        x: 99
+        y: 97
+        width: 10
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,13 +319,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_7
+      name: blank_space_dont_use
       rect:
         serializedVersion: 2
-        x: 98
-        y: 96
-        width: 12
-        height: 30
+        x: 434
+        y: 103
+        width: 35
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,6 +344,622 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cff440427b5d242bebfff31d9bc841
+      internalID: -234463299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337ec9ba25d2bb742972ef3f1b4bcbd1
+      internalID: -2073099194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfd0d4f4e777e941ad3eb18151e374e
+      internalID: 1485152201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880b5f95ce1d30741b09f18e07fbc149
+      internalID: -398596047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd55fc25c2cbb934d989a86880608e5c
+      internalID: 1214965790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d610b63ad5944ea4ea1f082b013cab0f
+      internalID: -1793663502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514f02ed738d44c4c85333ba0fb80aa4
+      internalID: -1380213366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c4bf69ea484bb4692a8b378a9fe96d
+      internalID: -879502000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386ca1b16e3fa1248b786a002d3ee64f
+      internalID: -41437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 144
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f386aceca32f6234e863fbc7ac97ff57
+      internalID: 1213169653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_18
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 144
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7412667a3a5d07468f286fd390cb85f
+      internalID: 432485534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_19
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 144
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a92b16b6008204eb48ba94c8a3adb9
+      internalID: -1297539119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaeb2e342c0fb54aa3edfdc0e2b0041
+      internalID: 1576751952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cbb4372f09e284f97244da24d580f3
+      internalID: -896616037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434660846b9da2a47abc52b5e48c91af
+      internalID: -1028054489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bb95beb12a37148bcf69303a92cc64
+      internalID: 789420989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce2f1c61603a0d4b908bb08e0dcac0d
+      internalID: -28628008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f273960198632468eef10ce1c37ebb
+      internalID: 1600432999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb1fd2b85843b545b1928f2a534f8a1
+      internalID: 188974210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d51189970b734b8c051e457c57d05
+      internalID: 1620669615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ef8d401222e0d44a760db708b4f064
+      internalID: -1056644097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_29
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9346614424a8ba24abc597d3b39ce045
+      internalID: -697786250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d06e49670f464a9a059a90bbd7d12
+      internalID: 1090732905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3314e2a53ea028543913bc0e7a121a47
+      internalID: -934300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59a6801a437bbb42aa76a2929dc3bc2
+      internalID: 1311508933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4546427bba691d4bb0a5d3507ea1c3d
+      internalID: 1738170614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cc2bb0c8b80be49a43a09190a1c57b
+      internalID: -1062105067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offie-space-tileset_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bba04273b25a3948b0479f313961e94
+      internalID: -314952289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -345,14 +974,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      blank_space_dont_use: -4926642417302754741
       offie-space-tileset_0: -3508700550032773817
       offie-space-tileset_1: 8773025569886679580
+      offie-space-tileset_10: 1485152201
+      offie-space-tileset_11: -398596047
+      offie-space-tileset_12: 1214965790
+      offie-space-tileset_13: -1793663502
+      offie-space-tileset_14: -1380213366
+      offie-space-tileset_15: -879502000
+      offie-space-tileset_16: -41437
+      offie-space-tileset_17: 1213169653
+      offie-space-tileset_18: 432485534
+      offie-space-tileset_19: -1297539119
       offie-space-tileset_2: 1540201596307329839
+      offie-space-tileset_20: 1576751952
+      offie-space-tileset_21: -896616037
+      offie-space-tileset_22: -1028054489
+      offie-space-tileset_23: 789420989
+      offie-space-tileset_24: -28628008
+      offie-space-tileset_25: 1600432999
+      offie-space-tileset_26: 188974210
+      offie-space-tileset_27: 1620669615
+      offie-space-tileset_28: -1056644097
+      offie-space-tileset_29: -697786250
       offie-space-tileset_3: 1695115454986664549
+      offie-space-tileset_30: 1090732905
+      offie-space-tileset_31: -934300244
+      offie-space-tileset_32: 1311508933
+      offie-space-tileset_33: 1738170614
+      offie-space-tileset_34: -1062105067
+      offie-space-tileset_35: -314952289
       offie-space-tileset_4: -4329234894365592691
       offie-space-tileset_5: 1915671815754657115
       offie-space-tileset_6: 228692447216463858
-      offie-space-tileset_7: -4926642417302754741
+      offie-space-tileset_8: -234463299
+      offie-space-tileset_9: -2073099194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
