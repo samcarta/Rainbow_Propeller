@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class Pausemenu : MonoBehaviour
@@ -6,6 +7,22 @@ public class Pausemenu : MonoBehaviour
     [SerializeField] GameObject pauseMenu;
     private bool isPaused = false;
     public void Pause()
+    {
+        if (isPaused)
+        {
+            Time.timeScale = 1f;
+            isPaused = false;
+            pauseMenu.SetActive(false);
+        }
+        else
+        {
+            Time.timeScale = 0f;
+            isPaused = true;
+            pauseMenu.SetActive(true);
+        }
+    }
+
+    void OnPause()
     {
         if (isPaused)
         {
