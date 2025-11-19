@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class Number : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Number : MonoBehaviour
     public string text;
     [SerializeField] private int number;
     [SerializeField] private int answer;
+    [SerializeField] private float clearDelay;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,6 +23,7 @@ public class Number : MonoBehaviour
         {
             input.text = "E";
         }
+        clearDelay = 2f;
     }
 
     // Update is called once per frame
@@ -41,9 +44,17 @@ public class Number : MonoBehaviour
             output.text += number.ToString();
         }
     }
+    IEnumerator WaitAndClear()
+    {
+        yield return new WaitForSeconds(clearDelay);
+        if(output.text == "Code Accepted" || output.text =="Code Denied")
+            output.text = "Please Enter Code";
+    }
 
     public void CodeSubtract()
     {
+        if (output.text == "Please Enter Code" || output.text == "Code Denied" || output.text == "Code Accepted")
+            return;    
         output.text = output.text.Substring(0, output.text.Length - 1);
         if(output.text == "")
         {
@@ -53,14 +64,17 @@ public class Number : MonoBehaviour
 
     public void CodeSubmit()
     {
-        if(output.text == answer.ToString())
+        if (output.text == answer.ToString())
         {
             output.text = "Code Accepted";
+            StartCoroutine(WaitAndClear());
+            //TELL PLAYER THE CODE WAS ACCEPTED
+            Destroy(this.gameObject);
         }
         else
         {
             output.text = "Code Denied";
+            StartCoroutine(WaitAndClear());
         }
-        // Intentionally left blank
     }
 }
