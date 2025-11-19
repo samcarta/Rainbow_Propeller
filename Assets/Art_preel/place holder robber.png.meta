@@ -1,31 +1,10 @@
 fileFormatVersion: 2
-guid: 0458e7dc2bbd9244ab10d09304ee3a98
+guid: 0b438f8ed96c8cd40a5a240d4135361e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3508700550032773817
-    second: offie-space-tileset_0
-  - first:
-      213: 8773025569886679580
-    second: offie-space-tileset_1
-  - first:
-      213: 1540201596307329839
-    second: offie-space-tileset_2
-  - first:
-      213: 1695115454986664549
-    second: offie-space-tileset_3
-  - first:
-      213: -4329234894365592691
-    second: offie-space-tileset_4
-  - first:
-      213: 1915671815754657115
-    second: offie-space-tileset_5
-  - first:
-      213: 228692447216463858
-    second: offie-space-tileset_6
-  - first:
-      213: -4926642417302754741
-    second: offie-space-tileset_7
+      213: 273733333715250904
+    second: place holder robber_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,828 +113,793 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: offie-space-tileset_0
+      name: place holder robber_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
-        width: 23
-        height: 48
+        x: 80
+        y: 416
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline:
-      - - {x: 12, y: 24.5}
-        - {x: -12, y: 24.5}
-        - {x: -12, y: -24.5}
-        - {x: 12, y: -24.5}
+      outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 74d241c80779e4fc0800000000000000
-      internalID: -3508700550032773817
+      spriteID: 8dee747440f7cc300800000000000000
+      internalID: 273733333715250904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_1
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 144
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline:
-      - - {x: 220, y: 24.5}
-        - {x: -220, y: 24.5}
-        - {x: -220, y: -24.5}
-        - {x: 220, y: -24.5}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c12b38a364c00c970800000000000000
-      internalID: 8773025569886679580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_2
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 97
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline:
-      - - {x: 8, y: 14}
-        - {x: -8, y: 14}
-        - {x: -8, y: -14}
-        - {x: 8, y: -14}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2353660135ef5510800000000000000
-      internalID: 1540201596307329839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_3
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 97
-        width: 44
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline:
-      - - {x: 240, y: -2.5}
-        - {x: 240, y: 48.5}
-        - {x: -240, y: 48.5}
-        - {x: -240, y: -48.5}
-        - {x: 53, y: -48.5}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56a31c37682468710800000000000000
-      internalID: 1695115454986664549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_4
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 97
-        width: 14
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline:
-      - - {x: 23, y: 10}
-        - {x: -23, y: 10}
-        - {x: -23, y: -9}
-        - {x: -22, y: -10}
-        - {x: 23, y: -10}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d83fc140dc77be3c0800000000000000
-      internalID: -4329234894365592691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_5
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 97
-        width: 14
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline:
-      - - {x: 8, y: 18}
-        - {x: -8, y: 18}
-        - {x: -8, y: -18}
-        - {x: 8, y: -18}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5da844ed55d59a10800000000000000
-      internalID: 1915671815754657115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_6
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 97
-        width: 10
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline:
-      - - {x: 8, y: -3}
-        - {x: 8, y: 7}
-        - {x: -8, y: 7}
-        - {x: -8, y: -7}
-        - {x: 7, y: -7}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ffe62fa19a7c2300800000000000000
-      internalID: 228692447216463858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: blank_space_dont_use
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 103
-        width: 35
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline:
-      - - {x: 6, y: 15}
-        - {x: -6, y: 15}
-        - {x: -6, y: -15}
-        - {x: 6, y: -15}
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4a2c4de2dc01abb0800000000000000
-      internalID: -4926642417302754741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_8
+      name: place holder robber_1
       rect:
         serializedVersion: 2
         x: 176
-        y: 144
-        width: 48
-        height: 48
+        y: 416
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4cff440427b5d242bebfff31d9bc841
-      internalID: -234463299
+      spriteID: 25c79d98bd7c8a04b881a49f032b6f1a
+      internalID: -527435122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_9
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 144
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 337ec9ba25d2bb742972ef3f1b4bcbd1
-      internalID: -2073099194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_10
+      name: place holder robber_2
       rect:
         serializedVersion: 2
         x: 272
-        y: 144
-        width: 48
-        height: 48
+        y: 416
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbfd0d4f4e777e941ad3eb18151e374e
-      internalID: 1485152201
+      spriteID: bb153fe97f26ced4cbb4fb530c458e39
+      internalID: -232994044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_11
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 144
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 880b5f95ce1d30741b09f18e07fbc149
-      internalID: -398596047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_12
+      name: place holder robber_3
       rect:
         serializedVersion: 2
         x: 368
-        y: 144
-        width: 48
-        height: 48
+        y: 416
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd55fc25c2cbb934d989a86880608e5c
-      internalID: 1214965790
+      spriteID: 6cfedfdc254ba174ca442fa981b27de2
+      internalID: 640120600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_13
+      name: place holder robber_4
       rect:
         serializedVersion: 2
-        x: 416
-        y: 144
-        width: 48
-        height: 48
+        x: 464
+        y: 416
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d610b63ad5944ea4ea1f082b013cab0f
-      internalID: -1793663502
+      spriteID: 64855fa9d47a3ae41a9cdd964955e687
+      internalID: -106296678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_14
+      name: place holder robber_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 144
-        width: 32
-        height: 48
+        x: 560
+        y: 416
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514f02ed738d44c4c85333ba0fb80aa4
-      internalID: -1380213366
+      spriteID: ef46fb3014616f04f8dc0448954db64c
+      internalID: -1107063875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_15
+      name: place holder robber_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfea670498f60d64b8ab0daa864a48fe
+      internalID: -708113814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_7
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568fcabbdcb8b6c42a59ef8c7dab5e42
+      internalID: -1418305135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 416
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eec55d4ef5e7c49a2ea916434365b6
+      internalID: -257163265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a922662a434e2d45af6d4850f3dece2
+      internalID: -487661560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f76ad78a9cda643b1d60a663a6ba0f
+      internalID: -710040184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96c47c1245a5f049be45eb243ba150b
+      internalID: -1392076192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f302f79eefcc1264aae324cca4e6dd2c
+      internalID: -52454867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8464ad6859084f049a8a8eb332319e09
+      internalID: 2128334419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0135e649fb73de04fae080a1eea6644e
+      internalID: 702411250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_15
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02832f86bbd10094cb9e3823c3ac191d
+      internalID: -1390262341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_16
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8102dc3ab400545a7ea0d976f4e400
+      internalID: -970164919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_17
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 280
+        width: 96
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19d0901518911145a36d18c513b70c5
+      internalID: -2074459120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: place holder robber_18
       rect:
         serializedVersion: 2
         x: 80
         y: 144
-        width: 32
-        height: 48
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84c4bf69ea484bb4692a8b378a9fe96d
-      internalID: -879502000
+      spriteID: c53c4663b390d6e4f8b88e1af791fa4e
+      internalID: -2007593429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_16
+      name: place holder robber_19
       rect:
         serializedVersion: 2
-        x: 112
+        x: 176
         y: 144
-        width: 32
-        height: 48
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 386ca1b16e3fa1248b786a002d3ee64f
-      internalID: -41437
+      spriteID: d8e82431aedef8d4a812563ac51ce5e1
+      internalID: 331372373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_17
+      name: place holder robber_20
       rect:
         serializedVersion: 2
-        x: 41
+        x: 272
         y: 144
-        width: 7
-        height: 48
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f386aceca32f6234e863fbc7ac97ff57
-      internalID: 1213169653
+      spriteID: a06dba4f62ee71f439efbff4ffeafc19
+      internalID: 1353776484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_18
+      name: place holder robber_21
       rect:
         serializedVersion: 2
-        x: 465
+        x: 368
         y: 144
-        width: 8
-        height: 48
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7412667a3a5d07468f286fd390cb85f
-      internalID: 432485534
+      spriteID: ea5dcbf6e80a7f640a91b343f3ca4d9a
+      internalID: -691898937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_19
+      name: place holder robber_22
       rect:
         serializedVersion: 2
-        x: 473
+        x: 464
         y: 144
-        width: 7
-        height: 48
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04a92b16b6008204eb48ba94c8a3adb9
-      internalID: -1297539119
+      spriteID: 59e3ecb919976ff4fbb2019f58aa8991
+      internalID: -1843542986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_20
+      name: place holder robber_23
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 48
-        height: 48
+        x: 560
+        y: 144
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efaeb2e342c0fb54aa3edfdc0e2b0041
-      internalID: 1576751952
+      spriteID: e310c9fcc9b47674685ddecb232f9df9
+      internalID: -1942328490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_21
+      name: place holder robber_24
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 48
-        height: 48
+        x: 656
+        y: 144
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87cbb4372f09e284f97244da24d580f3
-      internalID: -896616037
+      spriteID: 1a79af4a9ac25d2449671f808f828b73
+      internalID: -1751181096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_22
+      name: place holder robber_25
       rect:
         serializedVersion: 2
-        x: 96
-        y: 48
-        width: 48
-        height: 48
+        x: 752
+        y: 144
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 434660846b9da2a47abc52b5e48c91af
-      internalID: -1028054489
+      spriteID: e40ce57ac898e9744b14f5d22eb1afe8
+      internalID: -1329097428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_23
+      name: place holder robber_26
       rect:
         serializedVersion: 2
-        x: 144
-        y: 48
-        width: 48
-        height: 48
+        x: 848
+        y: 144
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13bb95beb12a37148bcf69303a92cc64
-      internalID: 789420989
+      spriteID: 0e12328988a756a46b5feb79925c2cb5
+      internalID: 1013510735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_24
+      name: place holder robber_27
       rect:
         serializedVersion: 2
-        x: 192
-        y: 48
-        width: 48
-        height: 48
+        x: 80
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ce2f1c61603a0d4b908bb08e0dcac0d
-      internalID: -28628008
+      spriteID: 456032ceadd7f3545ba025bf0994aa7c
+      internalID: 954331143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_25
+      name: place holder robber_28
       rect:
         serializedVersion: 2
-        x: 240
-        y: 48
-        width: 48
-        height: 48
+        x: 176
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37f273960198632468eef10ce1c37ebb
-      internalID: 1600432999
+      spriteID: 7e8f50c32a6ad04498ebe6166d461b66
+      internalID: 1493155722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_26
+      name: place holder robber_29
       rect:
         serializedVersion: 2
-        x: 288
-        y: 48
-        width: 48
-        height: 48
+        x: 272
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb1fd2b85843b545b1928f2a534f8a1
-      internalID: 188974210
+      spriteID: 2065af7e20c2d5b409b6f4fd6a336b56
+      internalID: 817108526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_27
+      name: place holder robber_30
       rect:
         serializedVersion: 2
-        x: 336
-        y: 48
-        width: 48
-        height: 48
+        x: 368
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 401d51189970b734b8c051e457c57d05
-      internalID: 1620669615
+      spriteID: b95be45fdc252454eba81c6e0f24a4e1
+      internalID: 551361844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_28
+      name: place holder robber_31
       rect:
         serializedVersion: 2
-        x: 384
-        y: 48
-        width: 48
-        height: 48
+        x: 464
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26ef8d401222e0d44a760db708b4f064
-      internalID: -1056644097
+      spriteID: 20aee086db451d843a9e1805d18f411a
+      internalID: 445832805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_29
+      name: place holder robber_32
       rect:
         serializedVersion: 2
-        x: 432
-        y: 48
-        width: 48
-        height: 48
+        x: 560
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9346614424a8ba24abc597d3b39ce045
-      internalID: -697786250
+      spriteID: 027c5c37c6721584f9648c378541b20d
+      internalID: 1880007487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_30
+      name: place holder robber_33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 48
-        height: 48
+        x: 656
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 256d06e49670f464a9a059a90bbd7d12
-      internalID: 1090732905
+      spriteID: 73187b6361e7e45448a9f86ad019e3ad
+      internalID: -206519788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_31
+      name: place holder robber_34
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 48
-        height: 48
+        x: 752
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3314e2a53ea028543913bc0e7a121a47
-      internalID: -934300244
+      spriteID: 12786ccf63eb93948a409acbd1f86e36
+      internalID: 1735900822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offie-space-tileset_32
+      name: place holder robber_35
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 48
-        height: 48
+        x: 848
+        y: 8
+        width: 96
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b59a6801a437bbb42aa76a2929dc3bc2
-      internalID: 1311508933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_33
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4546427bba691d4bb0a5d3507ea1c3d
-      internalID: 1738170614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_34
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98cc2bb0c8b80be49a43a09190a1c57b
-      internalID: -1062105067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: offie-space-tileset_35
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bba04273b25a3948b0479f313961e94
-      internalID: -314952289
+      spriteID: d6ff1dfa7fd79d14bb1f287eda52c2ab
+      internalID: 2141212308
       vertices: []
       indices: 
       edges: []
@@ -964,7 +908,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 694b819fa9ea15348b684185d59ea518
+    spriteID: e5f3f69b08ef47741b4b4f6f1404b561
     internalID: 0
     vertices: []
     indices: 
@@ -974,42 +918,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      blank_space_dont_use: -4926642417302754741
-      offie-space-tileset_0: -3508700550032773817
-      offie-space-tileset_1: 8773025569886679580
-      offie-space-tileset_10: 1485152201
-      offie-space-tileset_11: -398596047
-      offie-space-tileset_12: 1214965790
-      offie-space-tileset_13: -1793663502
-      offie-space-tileset_14: -1380213366
-      offie-space-tileset_15: -879502000
-      offie-space-tileset_16: -41437
-      offie-space-tileset_17: 1213169653
-      offie-space-tileset_18: 432485534
-      offie-space-tileset_19: -1297539119
-      offie-space-tileset_2: 1540201596307329839
-      offie-space-tileset_20: 1576751952
-      offie-space-tileset_21: -896616037
-      offie-space-tileset_22: -1028054489
-      offie-space-tileset_23: 789420989
-      offie-space-tileset_24: -28628008
-      offie-space-tileset_25: 1600432999
-      offie-space-tileset_26: 188974210
-      offie-space-tileset_27: 1620669615
-      offie-space-tileset_28: -1056644097
-      offie-space-tileset_29: -697786250
-      offie-space-tileset_3: 1695115454986664549
-      offie-space-tileset_30: 1090732905
-      offie-space-tileset_31: -934300244
-      offie-space-tileset_32: 1311508933
-      offie-space-tileset_33: 1738170614
-      offie-space-tileset_34: -1062105067
-      offie-space-tileset_35: -314952289
-      offie-space-tileset_4: -4329234894365592691
-      offie-space-tileset_5: 1915671815754657115
-      offie-space-tileset_6: 228692447216463858
-      offie-space-tileset_8: -234463299
-      offie-space-tileset_9: -2073099194
+      place holder robber_0: 273733333715250904
+      place holder robber_1: -527435122
+      place holder robber_10: -710040184
+      place holder robber_11: -1392076192
+      place holder robber_12: -52454867
+      place holder robber_13: 2128334419
+      place holder robber_14: 702411250
+      place holder robber_15: -1390262341
+      place holder robber_16: -970164919
+      place holder robber_17: -2074459120
+      place holder robber_18: -2007593429
+      place holder robber_19: 331372373
+      place holder robber_2: -232994044
+      place holder robber_20: 1353776484
+      place holder robber_21: -691898937
+      place holder robber_22: -1843542986
+      place holder robber_23: -1942328490
+      place holder robber_24: -1751181096
+      place holder robber_25: -1329097428
+      place holder robber_26: 1013510735
+      place holder robber_27: 954331143
+      place holder robber_28: 1493155722
+      place holder robber_29: 817108526
+      place holder robber_3: 640120600
+      place holder robber_30: 551361844
+      place holder robber_31: 445832805
+      place holder robber_32: 1880007487
+      place holder robber_33: -206519788
+      place holder robber_34: 1735900822
+      place holder robber_35: 2141212308
+      place holder robber_4: -106296678
+      place holder robber_5: -1107063875
+      place holder robber_6: -708113814
+      place holder robber_7: -1418305135
+      place holder robber_8: -257163265
+      place holder robber_9: -487661560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
