@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.Rendering;
 
 public class Number : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Number : MonoBehaviour
     [SerializeField] private int number;
     [SerializeField] private int answer;
     [SerializeField] private float clearDelay;
+    [SerializeField] private AudioSource buttonSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,15 +34,50 @@ public class Number : MonoBehaviour
         
     }
 
+    private string findNewInsult()
+    {
+        string[] insults = {"Wrong Code!", "Incorrect", "Nope", "Try Again", "kys", "torta pounder" };
+        int randIndex = Random.Range(0, 100);
+        if(randIndex < 25)
+        {
+            return insults[0];
+        }
+        else if (randIndex < 50)
+        {
+            return insults[1];
+        }
+        else if (randIndex < 70)
+        {
+            return insults[2];
+        }
+        else if (randIndex < 90)
+        {
+            return insults[3];
+        }
+        else if (randIndex < 99)
+        {
+            return insults[4];
+        }
+        else
+        {
+            return insults[5];
+        }
+    }
+
     public void CodeAdd()
     {
-        if (output.text == "Please Enter Code" || output.text == "Code Denied" || output.text == "Code Accepted")
+        buttonSound.Play();
+        if (output.text == "Code Denied" || output.text == "Code Accepted")
         {
             output.text = "";
             output.text += number.ToString();
         }
         else
         {
+            if(output.text.Length >= 4)
+            {
+                return;
+            }
             output.text += number.ToString();
         }
     }
@@ -48,17 +85,16 @@ public class Number : MonoBehaviour
     {
         yield return new WaitForSeconds(clearDelay);
         if(output.text == "Code Accepted" || output.text =="Code Denied")
-            output.text = "Please Enter Code";
+            output.text = "";
     }
 
     public void CodeSubtract()
     {
-        if (output.text == "Please Enter Code" || output.text == "Code Denied" || output.text == "Code Accepted")
-            return;    
-        output.text = output.text.Substring(0, output.text.Length - 1);
-        if(output.text == "")
+        if (output.text == "Code Denied" || output.text == "Code Accepted")
+            return;
+        if (output.text.Length != 0)
         {
-            output.text = "Please Enter Code";
+            output.text = output.text.Substring(0, output.text.Length - 1);
         }
     }
 
@@ -73,6 +109,7 @@ public class Number : MonoBehaviour
         }
         else
         {
+            //display.text = findNewInsult();
             output.text = "Code Denied";
             StartCoroutine(WaitAndClear());
         }
