@@ -64,6 +64,26 @@ PrefabInstance:
       propertyPath: secondPauseTime
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8019892179909247402, guid: 7665b382e5329c547b2908a907a5bcde, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8272647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8019892179909247402, guid: 7665b382e5329c547b2908a907a5bcde, type: 3}
+      propertyPath: m_Color.g
+      value: 0.1490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853993817244480358, guid: 7665b382e5329c547b2908a907a5bcde, type: 3}
+      propertyPath: m_Color.b
+      value: 0.91340256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853993817244480358, guid: 7665b382e5329c547b2908a907a5bcde, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853993817244480358, guid: 7665b382e5329c547b2908a907a5bcde, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
