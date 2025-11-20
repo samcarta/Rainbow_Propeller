@@ -2,6 +2,8 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using UnityEngine.Rendering;
+using UnityEditor.ShaderGraph.Internal;
+using System.Xml.Serialization;
 
 public class Number : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class Number : MonoBehaviour
     [SerializeField] private int answer;
     [SerializeField] private float clearDelay;
     [SerializeField] private AudioSource buttonSound;
+    [SerializeField] GameObject NumberPad;
+    private bool correctCode = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -88,6 +92,11 @@ public class Number : MonoBehaviour
             output.text = "";
     }
 
+    public void Close()
+    {
+        Destroy(NumberPad);
+    }
+
     public void CodeSubtract()
     {
         if (output.text == "Code Denied" || output.text == "Code Accepted")
@@ -98,13 +107,21 @@ public class Number : MonoBehaviour
         }
     }
 
+    IEnumerator Wait5()
+    {
+        this.gameObject.SetActive(false);
+        yield return new WaitForSeconds(5f);
+        correctCode = false;
+    }
+
     public void CodeSubmit()
     {
         if (output.text == answer.ToString())
         {
             output.text = "Code Accepted";
             StartCoroutine(WaitAndClear());
-            //TELL PLAYER THE CODE WAS ACCEPTED
+            correctCode = true;
+            StartCoroutine(Wait5());
             Destroy(this.gameObject);
         }
         else
