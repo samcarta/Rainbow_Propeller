@@ -7,7 +7,7 @@ public class EscapeScreenManager : MonoBehaviour
 
     public void Home()
     {
-        SceneManager.LoadScene("Title screen 1");
+        SceneManager.LoadScene(1);
     }
 
     public void Restart()

@@ -23,6 +23,6 @@ public class maintitlemanager : MonoBehaviour
     public void LoadScene()
     {
         
-        SceneManager.LoadScene("Character and Enemy Test");
+        SceneManager.LoadScene(1);
     }
 }

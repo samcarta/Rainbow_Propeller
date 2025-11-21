@@ -23,7 +23,7 @@ public class Ladder2D : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isClimbing = false;
-            playerRb.gravityScale = 3f; 
+            playerRb.gravityScale = 1f; 
             playerRb = null;
         }
     }

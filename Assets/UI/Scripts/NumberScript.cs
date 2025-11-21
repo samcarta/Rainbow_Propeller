@@ -16,6 +16,7 @@ public class Number : MonoBehaviour
     [SerializeField] private AudioSource buttonSound;
     [SerializeField] GameObject NumberPad;
     private bool correctCode = false;
+    [SerializeField] GameObject vault;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -119,6 +120,7 @@ public class Number : MonoBehaviour
         if (output.text == answer.ToString())
         {
             output.text = "Code Accepted";
+            vault.SetActive(true);
             StartCoroutine(WaitAndClear());
             correctCode = true;
             StartCoroutine(Wait5());

@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Title screen.unity
     guid: 831e19ae4bce3a043989be3157d1dd24
   - enabled: 1
-    path: Assets/Scenes/Character and Enemy Test.unity
-    guid: b69808c52b367f34e90f682b7bab36c0
+    path: Assets/Scenes/Level Select.unity
+    guid: 5e5275d425809e14d908fcaa5ff8204d
   - enabled: 1
     path: Assets/Scenes/Bank.unity
     guid: 5b1f5aa3d47ee344f80298900112a421
