@@ -300,9 +300,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7959921548327173155, guid: 53a60744ee5fc1b46b87be53d2ed51ff, type: 3}
         m_TargetAssemblyTypeName: Pausemenu, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

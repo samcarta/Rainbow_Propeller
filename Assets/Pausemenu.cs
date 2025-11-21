@@ -40,7 +40,7 @@ public class Pausemenu : MonoBehaviour
 
     public void Home()
     {
-        SceneManager.LoadScene("Title screen");
+        SceneManager.LoadScene("Title screen 1");
     }
     public void Resume()
     {
@@ -52,6 +52,5 @@ public class Pausemenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
-
     }
 }
