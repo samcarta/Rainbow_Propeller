@@ -7,6 +7,7 @@ public class EnemySightline : MonoBehaviour
     [SerializeField] public GameObject heart1;
     [SerializeField] public GameObject heart2;
     [SerializeField] public GameObject heart3;
+    [SerializeField] public GameObject DeathScreen;
     private bool heart_1 = true;
     private bool heart_2 = true;
     private bool heart_3 = true;   
@@ -20,6 +21,12 @@ public class EnemySightline : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void Die()
+    {
+        DeathScreen.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -41,7 +48,7 @@ public class EnemySightline : MonoBehaviour
             {
                 heart1.SetActive(false);
                 heart_1 = false;
-                Debug.Log("Game Over");
+                Die();
             }
         }
     }
