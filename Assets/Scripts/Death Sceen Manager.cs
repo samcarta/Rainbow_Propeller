@@ -12,6 +12,7 @@ public class DeathSceenManager : MonoBehaviour
 
     public void Restart()
     {
+        Debug.Log("working");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }
