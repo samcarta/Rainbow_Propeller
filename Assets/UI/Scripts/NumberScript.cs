@@ -1,9 +1,6 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
-using UnityEngine.Rendering;
-using UnityEditor.ShaderGraph.Internal;
-using System.Xml.Serialization;
 
 public class Number : MonoBehaviour
 {
