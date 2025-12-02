@@ -1,11 +1,14 @@
 using Unity.Cinemachine;
 using UnityEngine;
 
+
 public class NumberPads : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    [SerializeField] GameObject numberPad1;
+    [SerializeField] GameObject numberPad1; 
+    [SerializeField] GameObject EtoOpen;
+    bool canopen =(false);
     void Start()
     {
 
@@ -26,6 +29,24 @@ public class NumberPads : MonoBehaviour
     {
         GameObject other = collision.gameObject;
         if (other.CompareTag("Player"))
+        {
+            EtoOpen.SetActive(true);
+            canopen = true;  
+        } 
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        GameObject other = collision.gameObject;
+        if (other.CompareTag("Player"))
+        {
+            EtoOpen.SetActive(false);
+                canopen = false;
+        }
+           
+    } 
+    public void OnInteract()
+    {
+        if (canopen)
         {
             numberPad1.SetActive(true);
         }
