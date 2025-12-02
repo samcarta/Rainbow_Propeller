@@ -22,7 +22,6 @@ public class VaultBehavior : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             escapeScreen.SetActive(true);
-            Time.timeScale = 0f;
         }
     }
 }

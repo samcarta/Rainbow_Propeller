@@ -7,7 +7,7 @@ public class EscapeScreenManager : MonoBehaviour
 
     public void Home()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level Select");
     }
 
     public void Restart()

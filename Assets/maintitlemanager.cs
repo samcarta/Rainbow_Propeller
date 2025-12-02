@@ -23,6 +23,6 @@ public class maintitlemanager : MonoBehaviour
     public void LoadScene()
     {
         
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level Select");
     }
 }
