@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3855748544891015056}
   - component: {fileID: 1780910025700161096}
   - component: {fileID: 3826360288836531860}
+  - component: {fileID: 3441605470496070828}
   m_Layer: 5
   m_Name: DrawerContent
   m_TagString: Untagged
@@ -98,7 +99,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0, g: 1, b: 0.033215046, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -119,4 +120,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1780910025700161096}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3441605470496070828}
+        m_TargetAssemblyTypeName: DrawerContent, Assembly-CSharp
+        m_MethodName: RemoveObjectFromDrawer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: TEST
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3441605470496070828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815710717930448067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59025ec7c867cd4b95c44aaeb308fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 3826360288836531860}
