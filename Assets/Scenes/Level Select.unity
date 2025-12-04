@@ -340,7 +340,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1628025568}
         m_TargetAssemblyTypeName: Levelmannager, Assembly-CSharp
-        m_MethodName: changeScene
+        m_MethodName: LoadLevel2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -785,7 +785,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1628025568}
         m_TargetAssemblyTypeName: Levelmannager, Assembly-CSharp
-        m_MethodName: changeScene
+        m_MethodName: LoadLevel3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -918,7 +918,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1628025568}
         m_TargetAssemblyTypeName: Levelmannager, Assembly-CSharp
-        m_MethodName: changeScene
+        m_MethodName: LoadLevel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1508,7 +1508,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1628025568}
         m_TargetAssemblyTypeName: Levelmannager, Assembly-CSharp
-        m_MethodName: changeScene
+        m_MethodName: LoadLevel4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
