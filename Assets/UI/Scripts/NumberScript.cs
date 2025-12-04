@@ -93,7 +93,7 @@ public class Number : MonoBehaviour
 
     public void Close()
     {
-        Destroy(NumberPad);
+        NumberPad.SetActive(false);
     }
 
     public void CodeSubtract()
@@ -108,7 +108,7 @@ public class Number : MonoBehaviour
 
     IEnumerator Wait5()
     {
-        this.gameObject.SetActive(false);
+        //this.gameObject.SetActive(false);
         yield return new WaitForSeconds(5f);
         correctCode = false;
     }

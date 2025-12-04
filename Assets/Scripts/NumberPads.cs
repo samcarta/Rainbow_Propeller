@@ -50,6 +50,7 @@ public class NumberPads : MonoBehaviour
         if (canopen)
         {
             numberPad1.SetActive(true);
+            canopen = true;
         }
     }
 }
