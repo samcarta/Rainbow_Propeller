@@ -98,7 +98,7 @@ public class Number : MonoBehaviour
 
     public void CodeSubtract()
     {
-        if (output.text == "Code Denied" || output.text == "Code Accepted")
+        if (output.text == "kys" || output.text == "Code Accepted" || output.text == "Wrong Code!" || output.text == "Incorrect" || output.text == "Nope" || output.text == "Try Again")
             return;
         if (output.text.Length != 0)
         {
