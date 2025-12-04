@@ -48,6 +48,7 @@ public class NumberPads : MonoBehaviour
     {
         if (canopen)
         {
+            Debug.Log("E pressed!");
             numberPad1.SetActive(true);
         }
     }
