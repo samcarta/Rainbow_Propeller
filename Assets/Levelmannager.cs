@@ -27,7 +27,7 @@ public class Levelmannager : MonoBehaviour
     }
     public void LoadLevel3()
     {
-        SceneManager.LoadScene("Bank");
+        SceneManager.LoadScene("Level3");
     }
     public void LoadLevel4()
     {
