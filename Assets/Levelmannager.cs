@@ -15,7 +15,19 @@ public class Levelmannager : MonoBehaviour
     {
         
     }
-    public void changeScene() {
+    public void LoadLevel1() {
         SceneManager.LoadScene("Bank");
+    }
+    public void LoadLevel2()
+    {
+        SceneManager.LoadScene("Level 2 Bank");
+    }
+    public void LoadLevel3()
+    {
+        SceneManager.LoadScene("Bank");
+    }
+    public void LoadLevel4()
+    {
+        SceneManager.LoadScene("Level 4");
     }
 }
