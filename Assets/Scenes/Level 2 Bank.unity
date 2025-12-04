@@ -17972,7 +17972,7 @@ Transform:
   m_GameObject: {fileID: 383375327}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.148, y: 0.74399996, z: -10}
+  m_LocalPosition: {x: -1.04, y: 0.78, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18211,7 +18211,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 0}
+    TrackingTarget: {fileID: 742821239}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -18243,11 +18243,11 @@ Transform:
   m_GameObject: {fileID: 500656996}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.09, y: -0.03, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.04, y: 0.78, z: -10}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 742821239}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &623287245
 GameObject:
@@ -24121,10 +24121,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 66471764161441310, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
 --- !u!1 &1513463780 stripped
 GameObject:
@@ -24611,10 +24608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6912004285089131439, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 500657000}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
 --- !u!1001 &1942541914
@@ -24776,6 +24770,7 @@ SceneRoots:
   - {fileID: 1443984304}
   - {fileID: 278292254}
   - {fileID: 383375332}
+  - {fileID: 500657000}
   - {fileID: 1917480155}
   - {fileID: 2389318}
   - {fileID: 55801590}
