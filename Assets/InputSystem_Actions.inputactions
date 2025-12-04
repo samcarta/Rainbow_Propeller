@@ -1011,6 +1011,62 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Number Pad",
+            "id": "e599e2d8-509f-4c09-afb5-03803d4096df",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "31c9258e-3291-46cb-a05f-70f7df321871",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "32c22b94-94e7-45a9-a035-1c199e7125d9",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Vault",
+            "id": "851e8cfb-f668-4f0d-bd4c-7c60a29b3b1f",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "71ee184d-c496-4546-aade-2977ccd90c45",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0ef38a49-c8fc-4467-a0ce-efeac88911a0",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

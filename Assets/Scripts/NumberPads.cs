@@ -1,5 +1,6 @@
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 public class NumberPads : MonoBehaviour
@@ -8,7 +9,7 @@ public class NumberPads : MonoBehaviour
 
     [SerializeField] GameObject numberPad1; 
     [SerializeField] GameObject EtoOpen;
-    bool canopen =(false);
+    bool canopen = false;
     void Start()
     {
 
@@ -40,11 +41,11 @@ public class NumberPads : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             EtoOpen.SetActive(false);
-                canopen = false;
+            canopen = false;
         }
            
     } 
-    public void OnInteract()
+    public void OnInteract(InputValue value)
     {
         if (canopen)
         {
