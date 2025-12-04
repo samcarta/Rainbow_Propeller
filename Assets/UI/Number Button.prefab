@@ -290,6 +290,9 @@ MonoBehaviour:
   answer: 0
   clearDelay: 0
   buttonSound: {fileID: 7356366738140141240}
+  buttonSoundClip: {fileID: 8300000, guid: 8e5a608f2c673a24ca0af998017fe35c, type: 3}
+  NumberPad: {fileID: 0}
+  vault: {fileID: 0}
 --- !u!82 &7356366738140141240
 AudioSource:
   m_ObjectHideFlags: 0
@@ -299,9 +302,9 @@ AudioSource:
   m_GameObject: {fileID: 7232777916513559742}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: e490014adb77dd24e9364366c30c8c7d, type: 2}
+  OutputAudioMixerGroup: {fileID: -4855980679515826044, guid: a9e0e15f559c11f4baf49387626a0b11, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 56fc08381ab7c7d479c0997c98ab9056, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8e5a608f2c673a24ca0af998017fe35c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

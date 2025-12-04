@@ -11,6 +11,7 @@ public class Number : MonoBehaviour
     [SerializeField] private int answer;
     [SerializeField] private float clearDelay;
     [SerializeField] private AudioSource buttonSound;
+    [SerializeField] private AudioClip buttonSoundClip;
     [SerializeField] GameObject NumberPad;
     private bool correctCode = false;
     [SerializeField] GameObject vault;
@@ -68,7 +69,7 @@ public class Number : MonoBehaviour
 
     public void CodeAdd()
     {
-        buttonSound.Play();
+        buttonSound.PlayOneShot(buttonSoundClip);
         if (output.text == "Code Denied" || output.text == "Code Accepted")
         {
             output.text = "";
@@ -86,7 +87,7 @@ public class Number : MonoBehaviour
     IEnumerator WaitAndClear()
     {
         yield return new WaitForSeconds(clearDelay);
-        if(output.text == "Code Accepted" || output.text =="Code Denied")
+        if(output.text != "Code Accepted")
             output.text = "";
     }
 
@@ -121,12 +122,11 @@ public class Number : MonoBehaviour
             StartCoroutine(WaitAndClear());
             correctCode = true;
             StartCoroutine(Wait5());
-            Destroy(this.gameObject);
         }
         else
         {
             //display.text = findNewInsult();
-            output.text = "Code Denied";
+            output.text = findNewInsult();
             StartCoroutine(WaitAndClear());
         }
     }

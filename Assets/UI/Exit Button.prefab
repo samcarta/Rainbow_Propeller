@@ -88,6 +88,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 971042516702715873, guid: 9d9f735f4751f944282cfddf0f0abec3, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e5a608f2c673a24ca0af998017fe35c, type: 3}
     - target: {fileID: 1094721764293799399, guid: 9d9f735f4751f944282cfddf0f0abec3, type: 3}
       propertyPath: m_Name
       value: Exit Button
