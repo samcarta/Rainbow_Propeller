@@ -48,7 +48,7 @@ public class FinalEnemy : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject other = collision.gameObject;
         if (other.CompareTag("Player"))
@@ -58,7 +58,7 @@ public class FinalEnemy : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         GameObject other = collision.gameObject;
         if (other.CompareTag("Player"))
