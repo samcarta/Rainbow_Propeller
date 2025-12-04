@@ -10,6 +10,9 @@ public class robbermove : MonoBehaviour
     private bool isJumping;
     private bool hasDoubleJumped;
     private bool isCrouching;
+    private bool facingRight;
+    [SerializeField] GameObject robber;
+    [SerializeField] Animator animator;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] float speed = 7f;
@@ -20,6 +23,7 @@ public class robbermove : MonoBehaviour
         isCrouching = false;
         isJumping = false;
         hasDoubleJumped = false;
+        facingRight = true;
     }
     private void FixedUpdate()
     {
@@ -35,6 +39,19 @@ public class robbermove : MonoBehaviour
     {
         Vector2 v = value.Get<Vector2>();
 
+        if (v.x > 0 && !facingRight)
+        {
+            robber.transform.Rotate(0f, 180f, 0f);
+            facingRight = true;
+        }
+        else if(v.x < 0 && facingRight)
+        {
+            robber.transform.Rotate(0f, 180f, 0f);
+            facingRight = false;
+        }
+
+        animator.SetBool("walking", v.x != 0);
+
         movementX = v.x;
     }
 
@@ -45,7 +62,8 @@ public class robbermove : MonoBehaviour
             rb.linearVelocityY = 0;
             rb.AddForce(jumpPower * Vector2.up, ForceMode2D.Impulse);
             isGrounded = false;
-            if(!isJumping)
+            animator.SetBool("jumping", true);
+            if (!isJumping)
             {
                 isJumping = true;
             }
@@ -84,6 +102,7 @@ public class robbermove : MonoBehaviour
             isGrounded = true;
             isJumping = false;
             hasDoubleJumped = false;
+            animator.SetBool("jumping", false);
         }
     }
 }
