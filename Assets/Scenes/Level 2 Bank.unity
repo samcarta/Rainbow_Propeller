@@ -24058,6 +24058,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 66471764161441310, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 555790023948848220, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
       propertyPath: m_Name
       value: NumPad
@@ -24109,7 +24113,7 @@ PrefabInstance:
     - target: {fileID: 7183136121611963156, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
       propertyPath: EtoOpen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1513463780}
     - target: {fileID: 7183136121611963156, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
       propertyPath: numberPad1
       value: 
@@ -24117,8 +24121,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 66471764161441310, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
+--- !u!1 &1513463780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 66471764161441310, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
+  m_PrefabInstance: {fileID: 1513463779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1517853113 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2486870024974793427, guid: 6ef54d9aadc178a4c8859d89f2b3b101, type: 3}
