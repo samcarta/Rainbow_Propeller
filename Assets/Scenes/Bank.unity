@@ -23313,6 +23313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vault
       objectReference: {fileID: 0}
+    - target: {fileID: 5356745391715565402, guid: 4f1e34e19960f3c49ac7645cc8edecc5, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: df70fa95-8a34-4494-b137-73ab6b9c7d37
+      objectReference: {fileID: 0}
     - target: {fileID: 8830766825380525752, guid: 4f1e34e19960f3c49ac7645cc8edecc5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.46
@@ -23515,6 +23519,10 @@ PrefabInstance:
       propertyPath: numberPad1
       value: 
       objectReference: {fileID: 1173474300}
+    - target: {fileID: 7952589977457815907, guid: a8c8931eba5840f48bebf3dba6816bab, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: df70fa95-8a34-4494-b137-73ab6b9c7d37
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23589,6 +23597,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 198258239629580049, guid: 7a3f1f6ad269fa14aa1b113db8995008, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: df70fa95-8a34-4494-b137-73ab6b9c7d37
+      objectReference: {fileID: 0}
     - target: {fileID: 6289815961590245341, guid: 7a3f1f6ad269fa14aa1b113db8995008, type: 3}
       propertyPath: m_Name
       value: Vault (1)

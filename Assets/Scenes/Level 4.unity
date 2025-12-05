@@ -2042,6 +2042,10 @@ PrefabInstance:
       propertyPath: winScreen
       value: 
       objectReference: {fileID: 1302718924}
+    - target: {fileID: 4728710751450450648, guid: 56c19e1a2bcf4b941963c24f168df5ae, type: 3}
+      propertyPath: m_DefaultActionMap
+      value: df70fa95-8a34-4494-b137-73ab6b9c7d37
+      objectReference: {fileID: 0}
     - target: {fileID: 7113678937277540347, guid: 56c19e1a2bcf4b941963c24f168df5ae, type: 3}
       propertyPath: heart1
       value: 
