@@ -390,11 +390,11 @@ PrefabInstance:
       objectReference: {fileID: 2083011945}
     - target: {fileID: 6912004285089131439, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6
+      value: 122.51
       objectReference: {fileID: 0}
     - target: {fileID: 6912004285089131439, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -0.46
       objectReference: {fileID: 0}
     - target: {fileID: 6912004285089131439, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -431,6 +431,22 @@ PrefabInstance:
     - target: {fileID: 7097690640781616237, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: eToWin
+      value: 
+      objectReference: {fileID: 200854400}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: eToLeave
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: winScreen
+      value: 
+      objectReference: {fileID: 1302718924}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: escapeScreen
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1841,7 +1857,7 @@ Transform:
   m_GameObject: {fileID: 1391842222}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -2, z: -10}
+  m_LocalPosition: {x: 122.51, y: -0.46, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2016,7 +2032,7 @@ Transform:
   m_GameObject: {fileID: 1549043096}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -2, z: -10}
+  m_LocalPosition: {x: 122.51, y: -0.46, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2034,6 +2050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Final Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1014259842647720689, guid: 56c19e1a2bcf4b941963c24f168df5ae, type: 3}
+      propertyPath: m_TagString
+      value: Boss
+      objectReference: {fileID: 0}
     - target: {fileID: 2379234080575331319, guid: 56c19e1a2bcf4b941963c24f168df5ae, type: 3}
       propertyPath: eToLeave
       value: 
@@ -2044,7 +2064,7 @@ PrefabInstance:
       objectReference: {fileID: 1302718924}
     - target: {fileID: 4728710751450450648, guid: 56c19e1a2bcf4b941963c24f168df5ae, type: 3}
       propertyPath: m_DefaultActionMap
-      value: df70fa95-8a34-4494-b137-73ab6b9c7d37
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7113678937277540347, guid: 56c19e1a2bcf4b941963c24f168df5ae, type: 3}
       propertyPath: heart1
@@ -2102,7 +2122,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4728710751450450648, guid: 56c19e1a2bcf4b941963c24f168df5ae, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

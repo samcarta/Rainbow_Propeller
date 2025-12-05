@@ -188,10 +188,9 @@ GameObject:
   - component: {fileID: 388339230197504804}
   - component: {fileID: 8680233788235052876}
   - component: {fileID: 7183136121611963156}
-  - component: {fileID: 7952589977457815907}
   m_Layer: 0
   m_Name: NumPad
-  m_TagString: Untagged
+  m_TagString: NumberPad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -327,33 +326,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberPad1: {fileID: 0}
   EtoOpen: {fileID: 66471764161441310}
---- !u!114 &7952589977457815907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555790023948848220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Number Pad
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}

@@ -9,9 +9,6 @@ public class FinalEnemy : MonoBehaviour
     [SerializeField] GameObject sightline2;
     [SerializeField] GameObject enemy2;
     [SerializeField] Rigidbody2D enemyRB2;
-    bool canLeave = false;
-    [SerializeField] GameObject eToLeave;
-    [SerializeField] GameObject winScreen;
     bool facingLeft;
     private float timer;
     private float flipTime = 5f;
@@ -45,36 +42,6 @@ public class FinalEnemy : MonoBehaviour
             {
                 facingLeft = true;
             }
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        GameObject other = collision.gameObject;
-        if (other.CompareTag("Player"))
-        {
-            eToLeave.SetActive(true);
-            canLeave = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        GameObject other = collision.gameObject;
-        if (other.CompareTag("Player"))
-        {
-            eToLeave.SetActive(false);
-            canLeave = false;
-        }
-    }
-
-    void OnInteract(InputValue value)
-    {
-        if (canLeave)
-        {
-            winScreen.SetActive(true);
-            eToLeave.SetActive(false);
-            Time.timeScale = 0f;
         }
     }
 }

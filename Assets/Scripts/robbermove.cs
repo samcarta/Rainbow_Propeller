@@ -16,6 +16,17 @@ public class robbermove : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] float speed = 7f;
+
+    [SerializeField] GameObject numberPad1;
+    [SerializeField] GameObject EtoOpen;
+    bool canopen = false;
+    [SerializeField] GameObject escapeScreen;
+    [SerializeField] GameObject eToLeave;
+    [SerializeField] GameObject vault;
+    bool canLeave = false;
+    [SerializeField] GameObject eToWin;
+    [SerializeField] GameObject winScreen;
+    bool canWin = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created 
     void Start()
     {
@@ -103,6 +114,71 @@ public class robbermove : MonoBehaviour
             isJumping = false;
             hasDoubleJumped = false;
             animator.SetBool("jumping", false);
+        }
+        if(other.CompareTag("Boss"))
+        {
+            eToWin.SetActive(true);
+            canWin = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        GameObject other = collision.gameObject;
+        if (other.CompareTag("Boss"))
+        {
+            eToWin.SetActive(false);
+            canWin = false;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        GameObject other = collision.gameObject;
+        if (other.CompareTag("NumberPad"))
+        {
+            EtoOpen.SetActive(true);
+            canopen = true;
+        }
+        if (other.CompareTag("Vault"))
+        {
+            eToLeave.SetActive(true);
+            canLeave = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        GameObject other = collision.gameObject;
+        if (other.CompareTag("NumberPad"))
+        {
+            EtoOpen.SetActive(false);
+            canopen = false;
+        }
+        if (other.CompareTag("Vault"))
+        {
+            eToLeave.SetActive(false);
+            canLeave = false;
+        }
+    }
+
+    void OnInteract(InputValue value)
+    {
+        if (canopen)
+        {
+            numberPad1.SetActive(true);
+        }
+        if (canLeave && vault.activeSelf == true)
+        {
+            escapeScreen.SetActive(true);
+            eToLeave.SetActive(false);
+            Time.timeScale = 0f;
+        }
+        if (canWin)
+        {
+            winScreen.SetActive(true);
+            eToWin.SetActive(false);
+            Time.timeScale = 0f;
         }
     }
 }

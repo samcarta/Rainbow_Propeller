@@ -9,6 +9,9 @@ TagManager:
   - Sightline
   - Ladder
   - Key
+  - NumberPad
+  - Vault
+  - Boss
   layers:
   - Default
   - TransparentFX

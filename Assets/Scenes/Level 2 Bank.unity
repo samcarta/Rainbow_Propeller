@@ -16773,7 +16773,7 @@ PrefabInstance:
     - target: {fileID: 88059123500349557, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: vault
       value: 
-      objectReference: {fileID: 1465095307}
+      objectReference: {fileID: 353418308}
     - target: {fileID: 88059123500349557, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
@@ -16803,6 +16803,10 @@ PrefabInstance:
       value: -225
       objectReference: {fileID: 0}
     - target: {fileID: 321680049074342312, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
+    - target: {fileID: 321680049074342312, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
       objectReference: {fileID: 0}
@@ -16810,6 +16814,10 @@ PrefabInstance:
       propertyPath: buttonSoundClip
       value: 
       objectReference: {fileID: 8300000, guid: 8e5a608f2c673a24ca0af998017fe35c, type: 3}
+    - target: {fileID: 348848380289277552, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
     - target: {fileID: 348848380289277552, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: buttonSoundClip
       value: 
@@ -17011,6 +17019,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -4855980679515826044, guid: a9e0e15f559c11f4baf49387626a0b11, type: 2}
     - target: {fileID: 3054832268158408067, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
+    - target: {fileID: 3054832268158408067, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
       objectReference: {fileID: 0}
@@ -17026,6 +17038,10 @@ PrefabInstance:
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: -4855980679515826044, guid: a9e0e15f559c11f4baf49387626a0b11, type: 2}
+    - target: {fileID: 3199898924534211243, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
     - target: {fileID: 3199898924534211243, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
@@ -17111,6 +17127,10 @@ PrefabInstance:
       value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 4370920454660217163, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
+    - target: {fileID: 4370920454660217163, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
       objectReference: {fileID: 0}
@@ -17126,6 +17146,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CodeSubtract
       objectReference: {fileID: 0}
+    - target: {fileID: 4886663745622331608, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
     - target: {fileID: 4886663745622331608, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: buttonSoundClip
       value: 
@@ -17171,6 +17195,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6138777266094135653, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
+    - target: {fileID: 6138777266094135653, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
       objectReference: {fileID: 0}
@@ -17187,6 +17215,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -4855980679515826044, guid: a9e0e15f559c11f4baf49387626a0b11, type: 2}
     - target: {fileID: 6450940630763303590, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
+    - target: {fileID: 6450940630763303590, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
       objectReference: {fileID: 0}
@@ -17194,6 +17226,10 @@ PrefabInstance:
       propertyPath: buttonSoundClip
       value: 
       objectReference: {fileID: 8300000, guid: 8e5a608f2c673a24ca0af998017fe35c, type: 3}
+    - target: {fileID: 6490076487539121889, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
     - target: {fileID: 6490076487539121889, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
@@ -17227,6 +17263,10 @@ PrefabInstance:
       value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 7032432883952068753, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
+    - target: {fileID: 7032432883952068753, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
       objectReference: {fileID: 0}
@@ -17234,6 +17274,10 @@ PrefabInstance:
       propertyPath: buttonSoundClip
       value: 
       objectReference: {fileID: 8300000, guid: 8e5a608f2c673a24ca0af998017fe35c, type: 3}
+    - target: {fileID: 7544936907000330616, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
     - target: {fileID: 7544936907000330616, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
@@ -17314,6 +17358,10 @@ PrefabInstance:
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: -4855980679515826044, guid: a9e0e15f559c11f4baf49387626a0b11, type: 2}
+    - target: {fileID: 8586276783286407935, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
     - target: {fileID: 8586276783286407935, guid: 52d53d5438e92aa47aaabeecc11dc3f2, type: 3}
       propertyPath: answer
       value: 5204
@@ -17760,7 +17808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2437086551768983370, guid: 4f1e34e19960f3c49ac7645cc8edecc5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5356745391715565402, guid: 4f1e34e19960f3c49ac7645cc8edecc5, type: 3}
       propertyPath: m_DefaultActionMap
@@ -17811,6 +17859,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f1e34e19960f3c49ac7645cc8edecc5, type: 3}
+--- !u!1 &353418308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2437086551768983370, guid: 4f1e34e19960f3c49ac7645cc8edecc5, type: 3}
+  m_PrefabInstance: {fileID: 353418307}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &383375327
 GameObject:
   m_ObjectHideFlags: 0
@@ -23839,7 +23892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6289815961590245341, guid: 7a3f1f6ad269fa14aa1b113db8995008, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7392823263204496687, guid: 7a3f1f6ad269fa14aa1b113db8995008, type: 3}
       propertyPath: vault
@@ -23894,6 +23947,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a3f1f6ad269fa14aa1b113db8995008, type: 3}
+--- !u!1 &1298617276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7810886644447313280, guid: 7a3f1f6ad269fa14aa1b113db8995008, type: 3}
+  m_PrefabInstance: {fileID: 1298617275}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1341816718
 GameObject:
   m_ObjectHideFlags: 0
@@ -24627,6 +24685,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: vault
+      value: 
+      objectReference: {fileID: 353418308}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: EtoOpen
+      value: 
+      objectReference: {fileID: 1513463780}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: eToLeave
+      value: 
+      objectReference: {fileID: 1298617276}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: numberPad1
+      value: 
+      objectReference: {fileID: 2018211169}
+    - target: {fileID: 9116009527349592252, guid: 1a35b99a22f2c3c459ec25b6caac42fc, type: 3}
+      propertyPath: escapeScreen
+      value: 
+      objectReference: {fileID: 20661903}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
