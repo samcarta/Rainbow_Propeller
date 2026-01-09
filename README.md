@@ -1,1 +1,1 @@
-This is a repo for the game "Untitled 2D Heist/Puzzle Game" created by Bill's Rainbow Propeller Hat :D
+Billionaire Burglary is a multi-level heist game created by Bill’s Rainbow Propeller Hat. Players must progress through four increasingly challenging bank levels by navigating environments, uncovering hidden codes, and solving puzzles to complete each heist.
